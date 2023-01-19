@@ -1,6 +1,8 @@
 import { faAngleDown, faEllipsis } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from 'react';
+import { PieChart } from "react-minimal-pie-chart";
+import DoubleLineChart from "../DoubleLineChart/DoubleLineChart";
 const LeftDashFooter = () => {
     return (
       <div className="flex gap-2 mt-5 w-full">
@@ -16,6 +18,9 @@ const LeftDashFooter = () => {
             This Month <br /> <span className="font-bold">16,543</span>
           </p>
           <p className="text-right">Current Previous</p>
+          <div className="w-full overflow-x">
+            <DoubleLineChart></DoubleLineChart>
+          </div>
         </div>
 
         <div className="middle w-4/12 border rounded p-2">
@@ -25,7 +30,16 @@ const LeftDashFooter = () => {
               <FontAwesomeIcon icon={faEllipsis} />
             </div>
           </div>
-          <hr />
+          <div className="chart">
+            <PieChart
+              data={[
+                { title: "One", value: 10, color: "#E38627" },
+                { title: "Two", value: 15, color: "#C13C37" },
+                { title: "Three", value: 20, color: "#6A2135" },
+              ]}
+            />
+            ;
+          </div>
           <div className="flex justify-evenly">
             <div className="completed">Completed</div>
             <div className="pending">Pending</div>
@@ -104,7 +118,6 @@ const LeftDashFooter = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     );
