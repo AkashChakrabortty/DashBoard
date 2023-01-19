@@ -18,7 +18,7 @@ const LeftDashFooter = () => {
             This Month <br /> <span className="font-bold">16,543</span>
           </p>
           <p className="text-right">Current Previous</p>
-          <div className="w-full overflow-x">
+          <div className="w-full">
             <DoubleLineChart></DoubleLineChart>
           </div>
         </div>
