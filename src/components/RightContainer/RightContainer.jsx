@@ -4,9 +4,9 @@ import NavBar from '../NavBar/NavBar';
 import RightDash from "../RightDash/RightDash";
 const RightContainer = () => {
     return (
-      <div className="bg-blue-300 w-full">
+      <div className="default-bg w-full default-font">
         <NavBar></NavBar>
-        <div className="flex gap-2 m-2">
+        <div className="flex gap-2 m-2 ">
           <LeftDash></LeftDash>
           <RightDash></RightDash>
         </div>

@@ -5,7 +5,7 @@ const LeftDashHeader = () => {
     return (
       <div>
         <div className="header flex gap-2 justify-evenly">
-          <div className="revenue w-3/12 border p-2 rounded">
+          <div className="revenue w-3/12 p-2 rounded default-bg">
             <div className="text-container flex items-center">
               <div className="left w-3/12 bg-lime-600 rounded p-2 h-fit flex justify-center items-center">
                 <FontAwesomeIcon icon={faDollar} />
@@ -18,7 +18,7 @@ const LeftDashHeader = () => {
                   </p>
                 </div>
                 <div className="right flex items-end">
-                  <span className="bg-lime-200 text-lime-600 rounded">
+                  <span className="bg-green-600 text-green-900 rounded">
                     +2.65%
                   </span>
                 </div>
@@ -26,7 +26,7 @@ const LeftDashHeader = () => {
             </div>
           </div>
 
-          <div className="orders w-3/12 border p-2 rounded">
+          <div className="orders w-3/12 default-bg p-2 rounded">
             <div className="text-container flex items-center">
               <div className="left w-3/12 bg-lime-600 rounded p-2 h-fit flex justify-center items-center">
                 <FontAwesomeIcon icon={faBagShopping} />
@@ -39,7 +39,7 @@ const LeftDashHeader = () => {
                   </p>
                 </div>
                 <div className="right flex items-end">
-                  <span className="bg-red-200 text-red-600 rounded">
+                  <span className="bg-red-500 text-red-900 rounded">
                     -0.82%
                   </span>
                 </div>
@@ -47,7 +47,7 @@ const LeftDashHeader = () => {
             </div>
           </div>
 
-          <div className="customers w-3/12 border p-2 rounded">
+          <div className="customers w-3/12 default-bg p-2 rounded">
             <div className="text-container flex items-center">
               <div className="left w-3/12 bg-lime-600 rounded p-2 h-fit flex justify-center items-center">
                 <FontAwesomeIcon icon={faDollar} />
@@ -60,7 +60,7 @@ const LeftDashHeader = () => {
                   </p>
                 </div>
                 <div className="right flex items-end">
-                  <span className="bg-red-200 text-red-600 rounded">
+                  <span className="bg-red-500 text-red-900 rounded">
                     -1.04%
                   </span>
                 </div>

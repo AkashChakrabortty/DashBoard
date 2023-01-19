@@ -2,7 +2,7 @@ import React from 'react';
 
 const Overview = () => {
     return (
-      <div className="w-2/5 border p-2">
+      <div className="w-2/5 p-2">
         <h6>Overview</h6>
         <div className="w-full flex justify-between">
           <div className="my-2">
@@ -10,7 +10,7 @@ const Overview = () => {
               <span>This Month</span> <br />
               <p>
                 <span className="font-bold">$24,568</span>
-                <span className="bg-red-200 text-red-600 rounded ml-2">
+                <span className="bg-green-600 text-green-900 rounded ml-2">
                   +2.65%
                 </span>
               </p>

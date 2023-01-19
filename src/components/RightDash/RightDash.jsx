@@ -6,7 +6,7 @@ const RightDash = () => {
     return (
       <div className="w-1/3 border">
         <div className="profile">
-          <div className="bg-green-300 h-16 text-right">
+          <div className="default-bg h-16 text-right">
             <FontAwesomeIcon icon={faEllipsis} className="mr-2" />
           </div>
           <div className="img w-1/2 mx-auto text-center -mt-7">
@@ -44,17 +44,15 @@ const RightDash = () => {
             </div>
           </div>
           <div className="text-center">
-            <progress
-              className="progress progress-error"
-              value="76"
-              max="100"
-            ></progress>
+            <progress value="76" max="100"></progress>
             76%
             <div className=" text-center">
               <h6>$26,256</h6>
               <p>Earning this Montth</p>
               <p>
-                <span className="bg-lime-300 text-lime-600 rounded">+2.6%</span>{" "}
+                <span className="bg-green-600 text-green-900 rounded">
+                  +2.6%
+                </span>{" "}
                 From previous period
               </p>
             </div>
@@ -64,7 +62,7 @@ const RightDash = () => {
         <div className="activity mt-3">
           <h6 className="m-2">Recent Activity</h6>
           <div className="flex gap-2 m-2">
-            <div className="left rounded bg-lime-300 p-1">
+            <div className="left rounded default-bg p-1">
               12 <br /> Sep
             </div>
             <div className="right">
@@ -73,19 +71,19 @@ const RightDash = () => {
           </div>
 
           <div className="flex gap-2 m-2">
-            <div className="left rounded bg-lime-300 p-1">
+            <div className="left rounded default-bg p-1">
               11 <br /> Sep
             </div>
             <div className="right">
               <p>
                 Everyone realizes would be desirable... <br />{" "}
-                <span className="text-lime-200">Read more</span>
+                <span className="text-lime-600">Read more</span>
               </p>
             </div>
           </div>
 
           <div className="flex gap-2 m-2">
-            <div className="left rounded bg-lime-300 p-1">
+            <div className="left rounded default-bg p-1">
               10 <br /> Sep
             </div>
             <div className="right">

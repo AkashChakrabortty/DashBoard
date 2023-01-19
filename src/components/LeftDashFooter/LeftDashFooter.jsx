@@ -6,7 +6,7 @@ import DoubleLineChart from "../DoubleLineChart/DoubleLineChart";
 const LeftDashFooter = () => {
     return (
       <div className="flex gap-2 mt-5 w-full">
-        <div className="left w-4/12 border rounded p-2">
+        <div className="left w-4/12 default-bg rounded p-2">
           <div className="header flex justify-between">
             <div className="text">User Activity</div>
             <div className="icon">
@@ -23,7 +23,7 @@ const LeftDashFooter = () => {
           </div>
         </div>
 
-        <div className="middle w-4/12 border rounded p-2">
+        <div className="middle w-4/12 default-bg rounded p-2">
           <div className="header flex justify-between">
             <div className="text">Order Stats</div>
             <div className="icon">
@@ -47,7 +47,7 @@ const LeftDashFooter = () => {
           </div>
         </div>
 
-        <div className="right w-4/12 border rounded p-2">
+        <div className="right w-4/12 default-bg rounded p-2">
           <div className="header flex justify-between">
             <div className="text">Top Product</div>
             <div className="icon">

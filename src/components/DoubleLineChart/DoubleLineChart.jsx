@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from "react";
 import {
-    CartesianGrid, Line, LineChart, Tooltip, XAxis,
-    YAxis
+  CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis
 } from "recharts";
 
  
@@ -9,7 +8,7 @@ const data = [
   {
     uv: 4000,
     pv: 2400,
-    amt: 2400
+    amt: 400
   },
   {
     uv: 3000,
@@ -75,13 +74,12 @@ const CustomizedAxisTick: FunctionComponent<any> = (props: any) => {
 export default function DoubleLineChart() {
   return (
     <LineChart
-      width={300}
+      width={280}
       height={300}
       data={data}
       margin={{
         top: 20,
         right: 30,
-        left: 20,
         bottom: 10,
       }}
     >
@@ -93,4 +91,4 @@ export default function DoubleLineChart() {
       <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
     </LineChart>
   );
-}
+} 

@@ -8,9 +8,9 @@ const LeftContainer = () => {
     const handleIcon = () => {
       setIsX(!isX);
     }
-  
+       
     return (
-      <div className={`bg-slate-800 text-white ${isX ? "w-60" : "w-12"}`}>
+      <div className={`default-bg default-font ${isX ? "w-60" : "w-12"}`}>
         <div className="icon flex justify-end p-4 text-2xl">
           <button onClick={handleIcon}>
             {isX ? (

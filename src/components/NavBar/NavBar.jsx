@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className="left w-1/5 mt-2 ml-2">
           <span className="text-xl">Dashboard</span>
         </div>
-        <div className="right w-full flex justify-end items-center gap-2 text-xl text-gray-400 mr-5 mt-2">
+        <div className="right default-font w-full flex justify-end items-center gap-2 text-xl text-gray-400 mr-5 mt-2">
           <FontAwesomeIcon icon={faMagnifyingGlass} />
           <FontAwesomeIcon icon={faFlag} />
           <FontAwesomeIcon icon={faTable} />
