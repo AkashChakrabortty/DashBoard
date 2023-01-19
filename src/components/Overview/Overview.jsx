@@ -2,7 +2,7 @@ import React from 'react';
 
 const Overview = () => {
     return (
-      <div className="w-2/5 p-2">
+      <div className="w-full md:w-2/5 p-2 mx-auto">
         <h6>Overview</h6>
         <div className="w-full flex justify-between">
           <div className="my-2">

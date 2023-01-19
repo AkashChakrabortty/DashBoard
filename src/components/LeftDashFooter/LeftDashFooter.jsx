@@ -5,8 +5,8 @@ import { PieChart } from "react-minimal-pie-chart";
 import DoubleLineChart from "../DoubleLineChart/DoubleLineChart";
 const LeftDashFooter = () => {
     return (
-      <div className="flex gap-2 mt-5 w-full">
-        <div className="left w-4/12 default-bg rounded p-2">
+      <div className="lg:flex gap-2 mt-5 w-full">
+        <div className="left w-full lg:w-4/12 default-bg rounded p-2">
           <div className="header flex justify-between">
             <div className="text">User Activity</div>
             <div className="icon">
@@ -18,12 +18,12 @@ const LeftDashFooter = () => {
             This Month <br /> <span className="font-bold">16,543</span>
           </p>
           <p className="text-right">Current Previous</p>
-          <div className="w-full">
+          <div className="w-full flex justify-center">
             <DoubleLineChart></DoubleLineChart>
           </div>
         </div>
 
-        <div className="middle w-4/12 default-bg rounded p-2">
+        <div className="middle w-full lg:w-4/12 default-bg rounded p-2 my-2 lg:my-0">
           <div className="header flex justify-between">
             <div className="text">Order Stats</div>
             <div className="icon">
@@ -38,7 +38,6 @@ const LeftDashFooter = () => {
                 { title: "Three", value: 20, color: "#6A2135" },
               ]}
             />
-            ;
           </div>
           <div className="flex justify-evenly">
             <div className="completed">Completed</div>
@@ -47,7 +46,7 @@ const LeftDashFooter = () => {
           </div>
         </div>
 
-        <div className="right w-4/12 default-bg rounded p-2">
+        <div className="right w-full lg:w-4/12  default-bg rounded p-2">
           <div className="header flex justify-between">
             <div className="text">Top Product</div>
             <div className="icon">

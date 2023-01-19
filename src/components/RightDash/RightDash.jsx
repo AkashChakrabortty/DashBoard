@@ -4,9 +4,9 @@ import React from 'react';
 import img from '../../photo/avatar.png';
 const RightDash = () => {
     return (
-      <div className="w-1/3 border">
+      <div className="w-2/5 lg:w-1/3 default-bg">
         <div className="profile">
-          <div className="default-bg h-16 text-right">
+          <div className="h-16 text-right">
             <FontAwesomeIcon icon={faEllipsis} className="mr-2" />
           </div>
           <div className="img w-1/2 mx-auto text-center -mt-7">

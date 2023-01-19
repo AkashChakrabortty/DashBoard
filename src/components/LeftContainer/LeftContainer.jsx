@@ -10,7 +10,7 @@ const LeftContainer = () => {
     }
        
     return (
-      <div className={`default-bg default-font ${isX ? "w-60" : "w-12"}`}>
+      <div className={`default-bg default-font ${isX ? "w-1/5" : "w-12"}`}>
         <div className="icon flex justify-end p-4 text-2xl">
           <button onClick={handleIcon}>
             {isX ? (

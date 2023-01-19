@@ -5,10 +5,10 @@ import LeftDashHeader from '../LeftDashHeader/LeftDashHeader';
 import LeftDashMiddle from '../LeftDashMiddle/LeftDashMiddle';
 const LeftDash = () => {
     return (
-      <div className="w-full">
-       <LeftDashHeader></LeftDashHeader>
-       <LeftDashMiddle></LeftDashMiddle>
-       <LeftDashFooter></LeftDashFooter>
+      <div className="lg:w-full w-3/5 ">
+        <LeftDashHeader></LeftDashHeader>
+        <LeftDashMiddle></LeftDashMiddle>
+        <LeftDashFooter></LeftDashFooter>
       </div>
     );
 };

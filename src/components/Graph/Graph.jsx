@@ -66,13 +66,13 @@ export default function Graph() {
   return (
     <>
       <BarChart
-        width={500}
+        width={400}
         height={300}
         data={data}
         margin={{
           top: 5,
-          right: 30,
-          left: 20,
+          right: 60,
+          left: 0,
           bottom: 5,
         }}
       >

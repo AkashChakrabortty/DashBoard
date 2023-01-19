@@ -5,15 +5,17 @@ import Graph from '../Graph/Graph';
 import Overview from '../Overview/Overview';
 const LeftDashMiddle = () => {
     return (
-      <div className="flex p-2 default-bg rounded">
+      <div className="lg:flex p-2 default-bg rounded my-2">
         <Overview></Overview>
         <div className="">
           <div className="icon text-right">
-            <span className='font-bold'>Sort By:</span>
+            <span className="font-bold">Sort By:</span>
             Yearly
             <FontAwesomeIcon icon={faAngleDown} />
           </div>
-          <Graph></Graph>
+          <div className="overflow-auto">
+            <Graph></Graph>
+          </div>
         </div>
       </div>
     );

@@ -4,8 +4,8 @@ import React from 'react';
 const LeftDashHeader = () => {
     return (
       <div>
-        <div className="header flex gap-2 justify-evenly">
-          <div className="revenue w-3/12 p-2 rounded default-bg">
+        <div className="header lg:flex gap-2 justify-evenly">
+          <div className="revenue w-full md:w-1/2 lg:w-3/12 mx-auto p-2 rounded default-bg">
             <div className="text-container flex items-center">
               <div className="left w-3/12 bg-lime-600 rounded p-2 h-fit flex justify-center items-center">
                 <FontAwesomeIcon icon={faDollar} />
@@ -26,7 +26,7 @@ const LeftDashHeader = () => {
             </div>
           </div>
 
-          <div className="orders w-3/12 default-bg p-2 rounded">
+          <div className="orders w-full md:w-1/2 lg:w-3/12 my-2 mx-auto default-bg p-2 rounded">
             <div className="text-container flex items-center">
               <div className="left w-3/12 bg-lime-600 rounded p-2 h-fit flex justify-center items-center">
                 <FontAwesomeIcon icon={faBagShopping} />
@@ -47,7 +47,7 @@ const LeftDashHeader = () => {
             </div>
           </div>
 
-          <div className="customers w-3/12 default-bg p-2 rounded">
+          <div className="customers w-full md:w-1/2 lg:w-3/12 mx-auto default-bg p-2 rounded">
             <div className="text-container flex items-center">
               <div className="left w-3/12 bg-lime-600 rounded p-2 h-fit flex justify-center items-center">
                 <FontAwesomeIcon icon={faDollar} />
